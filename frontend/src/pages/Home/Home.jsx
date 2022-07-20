@@ -13,7 +13,7 @@ function Home() {
       </div>
   <section>
     <h2>
-      about the kingdom
+      About the kingdom
     </h2>
     <p>
       Welcome to the website of the Kingdom of Colchis. This majestic kingdom
