@@ -2,6 +2,7 @@ import React from 'react';
 import "./Home.css";
 //import "./compenents/Nav/Nav.css";
 
+
 function Home() {
   return (
     <>
