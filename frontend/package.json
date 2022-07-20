@@ -10,7 +10,7 @@
     "fix": "prettier --write . && eslint --fix --ext .jsx ."
   },
   "dependencies": {
-    "vite": "^0.16.0",
+    "2022-03-js-remotefr-outsiders-checkpoint-4": "file:..",
     "axios": "^0.27.2",
     "html2canvas": "^1.4.1",
     "interweave": "^13.0.0",
@@ -21,8 +21,8 @@
     "react-cookie": "^4.1.1",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.3.0",
-    "template": "file:.."
-    
+    "template": "file:..",
+    "vite": "^0.16.0"
   },
   "devDependencies": {
     "@types/tinymce": "^4.6.5",
