@@ -1,0 +1,22 @@
+li {
+    float: right;
+    border-left: 1px solid rgb(219, 212, 212);
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  li:last-child {
+    border-right: none;
+  }
+  .active {
+    background-color: rgba(97, 114, 141, 0.986);
+  }
+
