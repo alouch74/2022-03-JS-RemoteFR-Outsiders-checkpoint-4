@@ -1,10 +1,12 @@
 import React from 'react';
 import "./Home.css";
-//import "./compenents/Nav/Nav.css";
+import Nav from '../../components/Nav/Nav';
+
 
 function Home() {
   return (
     <>
+    <Nav />
       <h3>Kingdom of Colchis</h3>
       <div className="contenu" id="fond">
           <h1>

@@ -2,7 +2,7 @@ import React, { createContext, useState } from "react";
 
 const CurrentPageContext = createContext();
 
-export function CurrentPageProvider({ children }) {
+export function CurrentPageContextProvider({ children }) {
   const [accueil, setAccueil] = useState(true);
   const [contact, setContact] = useState(false);
   const [royalassets, setRoyalassets] = useState(false);
@@ -25,3 +25,5 @@ export function CurrentPageProvider({ children }) {
     </CurrentPageContext.Provider>
   );
 }
+
+export default CurrentPageContext;
