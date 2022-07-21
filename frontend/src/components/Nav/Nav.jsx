@@ -1,5 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import  CurrentPageContext  from '../../PageContext';
 
 
 function Nav() {
@@ -92,7 +93,7 @@ function Nav() {
             </li>
             <li>
                 <Link
-                    to="/royalassets"
+                    to="/royal-assets"
                     className = {royalassets ? "navLinkOn" : "navLinkOff"}
                     onClick={goToRoyalAssets}
                 >   
@@ -101,7 +102,7 @@ function Nav() {
             </li>
             <li>
                 <Link
-                    to="/royalfamily"
+                    to="/royal-family"
                     className = {royalfamily ? "navLinkOn" : "navLinkOff"}
                     onClick={goToRoyalFamily}
                 >   
