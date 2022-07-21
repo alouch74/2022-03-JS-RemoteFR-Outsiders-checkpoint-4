@@ -1,12 +1,14 @@
 import React from 'react';
 import "./RoyalAssets.css";
+import Nav from '../../components/Nav/Nav'
 
 function RoyalAssets(){
    return (
    <>
+   <Nav />
       <h3>Kingdom of Colchis</h3>
       <div className="contenu">
-    <h2>The Kingdom's Royal Assets </h2>
+      <h2>The Kingdom's Royal Assets </h2>
       <table id="assets">
         <tr>
           <th>asset name</th>

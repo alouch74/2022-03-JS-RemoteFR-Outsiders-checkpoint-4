@@ -1,9 +1,11 @@
 import React from 'react';
 import "./RoyalFamily.css";
+import Nav from '../../components/Nav/Nav';
 
 function RoyalFamily(){
    return (
       <>
+      <Nav />
    <h3>kingdom of Colchis</h3>
    <div className="contenu">
    <h2>
